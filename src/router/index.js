@@ -3,9 +3,7 @@ import VueRouter from 'vue-router';
 import NProgress from 'nprogress';
 import 'nprogress/nprogress.css';
 Vue.use(VueRouter);
-
-const routes = [];
-
+import routes from '../menu/menu';
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
