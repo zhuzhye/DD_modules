@@ -46,7 +46,7 @@ export default {
 <style lang="less" scoped>
 #map {
   width: 100%;
-  height: calc(100vh - 20px);
+  height: 100vh;
 }
 .right-menu {
   width: 35px;

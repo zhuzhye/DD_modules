@@ -19,8 +19,8 @@ module.exports = {
   },
   devServer: {
     port,
+    // host: '192.168.4.110',
   },
-
   configureWebpack(config) {
     config.resolve.alias['@'] = path.join(__dirname, 'src/');
   },
